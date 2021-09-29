@@ -65,4 +65,4 @@ Cr04=512
 
 Cr05=512
 
-Output raw data file line size (in Y' samples) and height (=lines written) in the console output after executable finishes.
+Output raw data file line size (in Y' samples) and height (=lines written) in the console output after executable finishes. Output filename is out.uyvy_be .
