@@ -84,7 +84,7 @@ bool bWriteSustainedRight(FILE *f)
 	usOut[2] = (usCr>>8) | (usCr<<8);// Cr 
 	usOut[3] = (usY>>8) | (usY<<8);// Y 
 
-	for(int i=0; i < iLeftSize; i+=2)
+	for(int i=0; i < iRightSize; i+=2)
 	{
 		fwrite(&usOut, sizeof(usOut), 1, f);
 		iNumYWrittenInLine+=2;
